@@ -13,8 +13,9 @@
         android:theme="@style/Theme.RecipesThaiRestaurant">
         <activity android:name=".Activites.FullView"></activity>
         <activity android:name=".Activites.Dashboard"></activity>
-        <activity android:name=".Activites.SplashScreen" />
-        <activity android:name=".Activites.MainActivity">
+        <activity android:name=".Activites.MainActivity" />
+        <activity android:name=".Activites.SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

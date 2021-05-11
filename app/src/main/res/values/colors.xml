@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#7cc34a</color>
     <color name="orange">#f57921</color>
+    <color name="lightQray">#f0f0f0</color>
+
 </resources>
