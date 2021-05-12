@@ -10,7 +10,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:scrollbarDefaultDelayBeforeFade="@android:integer/config_shortAnimTime">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,31 +31,22 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/imageSlider1"
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider1"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
                         android:layout_margin="20dp"
-                        app:sliderAnimationDuration="600"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="600"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="1"
-                        app:sliderStartAutoCycle="true" />
+                        android:background="@drawable/cha_yen__thai_style_tea"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="0"
+                        app:iss_period="1000" />
 
                     <TextView
                         android:id="@+id/Headline1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
@@ -64,9 +56,9 @@
                         android:id="@+id/Subtitle1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
@@ -75,10 +67,10 @@
                         android:id="@+id/TotalCount1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="right"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/total_count_button"
+                        android:gravity="left"
                         android:padding="3dp"
                         android:text="Total Count is 20"
                         android:textColor="@android:color/black"
@@ -112,31 +104,22 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/imageSlider2"
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider2"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
                         android:layout_margin="20dp"
-                        app:sliderAnimationDuration="600"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="600"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="1"
-                        app:sliderStartAutoCycle="true" />
+                        android:background="@drawable/khao_phat_or_khao_pad__fried_rice"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="0"
+                        app:iss_period="1000" />
 
                     <TextView
                         android:id="@+id/Headline2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
@@ -146,9 +129,9 @@
                         android:id="@+id/Subtitle2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
@@ -157,10 +140,10 @@
                         android:id="@+id/TotalCount2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="right"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/total_count_button"
+                        android:gravity="left"
                         android:padding="3dp"
                         android:text="Total Count is 20"
                         android:textColor="@android:color/black"
@@ -194,31 +177,22 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/imageSlider3"
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/image_slider3"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
                         android:layout_margin="20dp"
-                        app:sliderAnimationDuration="600"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="600"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="1"
-                        app:sliderStartAutoCycle="true" />
+                        android:background="@drawable/thong_yip"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="0"
+                        app:iss_period="1000" />
 
                     <TextView
                         android:id="@+id/Headline3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
@@ -228,9 +202,9 @@
                         android:id="@+id/Subtitle3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
-                        android:gravity="right"
+                        android:gravity="left"
                         android:text="title"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
@@ -239,10 +213,10 @@
                         android:id="@+id/TotalCount3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="right"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
                         android:background="@drawable/total_count_button"
+                        android:gravity="left"
                         android:padding="3dp"
                         android:text="Total Count is 20"
                         android:textColor="@android:color/black"
