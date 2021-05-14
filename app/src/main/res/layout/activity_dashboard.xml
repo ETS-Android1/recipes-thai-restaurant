@@ -20,7 +20,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="380dp"
+                android:layout_height="match_parent"
                 android:layout_margin="20dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp"
@@ -29,59 +29,59 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
                     <com.denzcoskun.imageslider.ImageSlider
-                        android:id="@+id/image_slider1"
+                        android:background="@drawable/backgroung"
+                        android:id="@+id/image_slider_Food"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
-                        android:layout_margin="20dp"
-                        android:background="@drawable/cha_yen__thai_style_tea"
                         app:iss_auto_cycle="true"
                         app:iss_delay="0"
                         app:iss_period="1000" />
 
                     <TextView
-                        android:id="@+id/Headline1"
+                        android:id="@+id/Food"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Food"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/Subtitle1"
+                        android:id="@+id/Description_of_Food"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Traditional Thai cuisine is quite healthy and largely based on vegetables, lean proteins, and fresh herbs and spices. Certain Thai dishes are high in refined carbs and may contain deep-fried foods, added sugar, or high amounts of salt."
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/TotalCount1"
+                        android:id="@+id/Total_count_of_Food"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:background="@drawable/total_count_button"
                         android:gravity="left"
                         android:padding="3dp"
-                        android:text="Total Count is 20"
+                        android:text="Total Count is 12"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <android.widget.Button
+                        android:id="@+id/Food_show_all"
                         android:layout_width="150dp"
                         android:layout_height="40dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="22dp"
                         android:background="@drawable/view_all_button"
+                        android:onClick="ViewAll"
                         android:text="View All"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
@@ -93,7 +93,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="380dp"
+                android:layout_height="match_parent"
                 android:layout_margin="20dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp"
@@ -102,59 +102,59 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
                     <com.denzcoskun.imageslider.ImageSlider
-                        android:id="@+id/image_slider2"
+                       android:background="@drawable/backgroung"
+                        android:id="@+id/image_slider_Drinks"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
-                        android:layout_margin="20dp"
-                        android:background="@drawable/khao_phat_or_khao_pad__fried_rice"
                         app:iss_auto_cycle="true"
                         app:iss_delay="0"
                         app:iss_period="1000" />
 
                     <TextView
-                        android:id="@+id/Headline2"
+                        android:id="@+id/Drinks"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Drinks"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/Subtitle2"
+                        android:id="@+id/Description_of_Drinks"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Thai drinks are usually very sweet. So if you aren't a big fan of sugar, make sure to say 'Whaan Noi' (less sweet) or 'Mai Whaan' (not sweet) to the vendor before they start making them"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/TotalCount2"
+                        android:id="@+id/Total_count_of_Drinks"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:background="@drawable/total_count_button"
                         android:gravity="left"
                         android:padding="3dp"
-                        android:text="Total Count is 20"
+                        android:text="Total Count is 4"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <android.widget.Button
+                        android:id="@+id/Drinks_show_all"
                         android:layout_width="150dp"
                         android:layout_height="40dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="22dp"
                         android:background="@drawable/view_all_button"
+                        android:onClick="ViewAll"
                         android:text="View All"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
@@ -166,7 +166,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="380dp"
+                android:layout_height="match_parent"
                 android:layout_margin="20dp"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp"
@@ -175,59 +175,59 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
                     <com.denzcoskun.imageslider.ImageSlider
-                        android:id="@+id/image_slider3"
+                        android:background="@drawable/backgroung"
+                        android:id="@+id/image_slider_Desserts"
                         android:layout_width="match_parent"
                         android:layout_height="160dp"
-                        android:layout_margin="20dp"
-                        android:background="@drawable/thong_yip"
                         app:iss_auto_cycle="true"
                         app:iss_delay="0"
                         app:iss_period="1000" />
 
                     <TextView
-                        android:id="@+id/Headline3"
+                        android:id="@+id/Desserts"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Desserts"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/Subtitle3"
+                        android:id="@+id/Description_of_Desserts"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:gravity="left"
-                        android:text="title"
+                        android:text="Most Thai desserts are a sweet and sometimes filling snack opposed to a light and airy Western style dessert. They are characterized by sweet syrups, coconut cream, tropical fruits, and sweet sticky rice"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/TotalCount3"
+                        android:id="@+id/Total_count_of_Desserts"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="10dp"
                         android:background="@drawable/total_count_button"
                         android:gravity="left"
                         android:padding="3dp"
-                        android:text="Total Count is 20"
+                        android:text="Total Count is 4"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <android.widget.Button
+                        android:id="@+id/Desserts_show_all"
                         android:layout_width="150dp"
                         android:layout_height="40dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="22dp"
                         android:background="@drawable/view_all_button"
+                        android:onClick="ViewAll"
                         android:text="View All"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
