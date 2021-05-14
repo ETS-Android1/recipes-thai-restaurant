@@ -2,15 +2,15 @@ package com.example.recipesthairestaurant.Model;
 
 public class Constant {
     int image;
-    String Title;
-    String Ingredients;
-    String Directions;
+    String title;
+    String ingredients;
+    String instructions;
 
-    public Constant(int image, String title, String ingredients, String directions) {
+    public Constant(int image, String title, String ingredients, String instructions) {
         this.image = image;
-        Title = title;
-        Ingredients = ingredients;
-        Directions = directions;
+        this.title = title;
+        this.ingredients = ingredients;
+        this.instructions = instructions;
     }
 
     public int getImage() {
@@ -18,14 +18,14 @@ public class Constant {
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
     public String getIngredients() {
-        return Ingredients;
+        return ingredients;
     }
 
-    public String getDirections() {
-        return Directions;
+    public String getInstructions() {
+        return instructions;
     }
 }

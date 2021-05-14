@@ -216,7 +216,7 @@
                         android:background="@drawable/total_count_button"
                         android:gravity="left"
                         android:padding="3dp"
-                        android:text="Total Count is 4"
+                        android:text="Total Count is 3"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 

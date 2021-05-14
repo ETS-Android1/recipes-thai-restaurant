@@ -1,3 +1,557 @@
 <resources>
     <string name="app_name">Recipes Thai Restaurant</string>
+
+    <!--    Food    -->
+    <string name="Title_food_1">khao niew mamuang
+<!--        (mango sticky rice)-->
+    </string>
+    <string name="Ingredients_food_1">
+        1 1/2 cups glutinous (sweet) rice
+        1 1/3 cups well-stirred canned unsweetened coconut milk
+        1/3 cup plus 3 tablespoons sugar
+        1/4 teaspoon salt
+        1 tablespoon sesame seeds, toasted lightly
+        1 large mango, peeled, pitted, and cut into thin slices (at least 24)
+    </string>
+    <string name="Instructions_food_1">
+        In a bowl wash rice well in several changes of cold water until water is clear.
+        Soak rice in cold water to cover overnight.
+        Drain rice well in a sieve.
+        Set sieve over a large deep saucepan of simmering water (sieve should not touch water) and steam rice, covered with a kitchen towel and a lid, 30 to 40 minutes, or until tender (check water level in pan occasionally, adding more water if necessary).
+        While rice is cooking, in a small saucepan bring 1 cup coconut milk to a boil with 1/3 cup sugar and salt, stirring until sugar is dissolved, and remove from heat.
+        Keep mixture warm.
+        Transfer cooked rice to a bowl and stir in coconut-milk mixture.
+        Let rice stand, covered, 30 minutes, or until coconut-milk mixture is absorbed.
+        Rice may be prepared up to this point 2 hours ahead and kept covered at room temperature.
+        While rice is standing, in cleaned small pan slowly boil remaining 1/3 cup coconut milk with remaining 3 tablespoons sugar, stirring occasionally, 1 minute.
+        Transfer sauce to a small bowl and chill until cool and thickened slightly.
+        To serve, mold 1/4 cup servings of sticky rice on dessert plates.
+        Drizzle desserts with sauce and sprinkle with sesame seeds.
+        Divide mango slices among plates.
+    </string>
+
+    <string name="Title_food_2">khao phat or khao pad
+<!--        (fried rice)-->
+    </string>
+    <string name="Ingredients_food_2">
+        1 tablespoon oil
+        1/2 pound boneless, skinless chicken breasts, cut into small pieces
+        1 medium onion, diced
+        4 cups bok choy, sliced
+        2 cloves garlic, chopped
+        1/2 cup peas (fresh or frozen)
+        1/2 cup shredded carrot
+        4 cups cooked brown jasmine rice
+        2 eggs, lightly beaten
+        1 tablespoon fish sauce
+        1 tablespoon reduced-sodium soy sauce
+        1 tablespoon Sriracha
+        1 tablespoon lime juice
+        2 green onions, sliced
+    </string>
+    <string name="Instructions_food_2">
+        Heat a large wok or pan over medium-high heat, add the chicken, onions and the thick white parts of the bok choy and stir-fry until the chicken is almost cooked, 2-3 minutes.
+        Add the garlic, peas and carrots and stir-fry for 2 minutes.
+        Add the rice and remaining bok choy and stir-fry, while mixing, for 2 minutes.
+        Make a well in the middle of the pan; add the eggs and let them sit for a minute before scrambling and mixing them into the ingredients in the wok. Cook for another 2 minutes.
+        Add in the fish sauce, soy sauce, Sriracha and lime juice along with the green onions and remove from heat.
+    </string>
+
+    <string name="Title_food_3">guay teow
+<!--        (noodle soup)-->
+    </string>
+    <string name="Ingredients_food_3">
+        65 grams vital wheat gluten
+        18 grams tapioca starch (2 tablespoons)
+        ⅛ teaspoon ground white pepper
+        Pinch sugar
+        Pinch MSG
+        30 millilitres cold water (2 tablespoons)
+        15 millilitres vegetable oil (1 tablespoon)
+        10 millilitres white rice vinegar (2 teaspoons)
+        10 millilitres Thai thin soy sauce (2 teaspoons)
+    </string>
+    <string name="Instructions_food_3">
+        Whisk dry ingredients together in a medium bowl.
+        Combine remaining ingredients in a small bowl.
+        Pour into flour and stir with your fingers until it comes together, just beyond shaggy.
+        Leave to rest for 10 minutes.
+        Heat a small pot of water on low, not boiling.
+        When hot, tear the seitan pieces into the size you’d like and add them to the water.
+        Cook for 10 minutes and drain.
+    </string>
+
+    <string name="Title_food_4">tom yum goong
+<!--        (spicy shrimp soup)-->
+    </string>
+    <string name="Ingredients_food_4">
+        1 ½ pounds medium shrimp
+        9 ½ cups water, divided
+        ½ cup chopped peeled fresh galangal (about 2 ounces)
+        ½ cup (2-inch) pieces peeled fresh lemongrass (about 4 stalks)
+        6 fresh or frozen kaffir lime leaves
+        ½ cup canned straw mushrooms, quartered
+        2 tablespoons roasted red chili paste (such as Thai Kitchen)
+        1 tablespoon fish sauce
+        2 Thai chiles
+        ½ cup chopped green onions
+        ½ cup chopped fresh cilantro
+        1 tablespoon fresh lime juice
+        6 tablespoons chopped dry-roasted unsalted peanuts
+        4 lime wedges
+    </string>
+    <string name="Instructions_food_4">
+        Peel and devein shrimp, reserving shells.
+        Combine shrimp shells and 6 cups water in a Dutch oven; bring to a simmer.
+        Cook 1 hour.
+        Strain broth through a sieve into a bowl; discard solids.
+        Combine broth and remaining 3 1/2 cups water in a large saucepan; bring to a boil.
+        Add galangal, lemongrass, and kaffir lime leaves to pan; simmer 10 minutes.
+        Strain broth mixture through a sieve into a bowl; discard solids.
+        Return broth mixture to pan. Add mushrooms, chili paste, fish sauce, and chiles; bring to a boil.
+        Stir in shrimp, green onions, and cilantro; cook 3 minutes or until shrimp are done.
+        Discard chiles.
+        Stir in fresh lime juice.
+        Ladle 2 cups soup into each of 4 bowls; sprinkle evenly with peanuts.
+        Serve with lime wedges.
+    </string>
+
+    <string name="Title_food_5">khao soi
+<!--        (cream ycoconut curry noodle soup)-->
+    </string>
+    <string name="Ingredients_food_5">
+        2 cups chicken broth no sodium preferred
+        14 oz coconut milk 1 can
+        1-2 tbsp Thai red curry paste
+        1/2 inch ginger thinly sliced
+        2 cloves garlic crushed
+        1 large chicken breast or 2 small ones
+        1 tbsp fish sauce or to taste
+        1 tbsp sugar or to taste, brown sugar preferred
+        2 portions egg noodles or ramen noodles
+    </string>
+    <string name="Instructions_food_5">
+        In the Instant Pot insert, add the chicken stock, coconut milk, red curry paste, garlic, ginger, and chicken breast.
+        Cook on high pressure for 5 minutes.
+        While the Instant Pot is doing it’s thing, slice the shallots, cut the lime, and wash the cilantro.
+        If you’re using any extra toppings, prep them now. Cook and drain your noodles and divide them between two deep bowls.
+        When the Instant Pot is done, quick release the pressure.
+        Carefully remove the chicken and shred.
+        Add the chicken to the bowls with the noodles.
+        Stir the fish sauce and brown sugar into the soup.
+        Taste the soup and adjust the seasoning with fish sauce, sugar, and curry paste if needed, then divide evenly between the two bowls.
+        Finish with lime and cilantro and enjoy!
+    </string>
+
+    <string name="Title_food_6">tom kha gai
+<!--        (chicken in coconut soup)-->
+    </string>
+    <string name="Ingredients_food_6">
+        1 1” piece ginger, peeled
+        10 makrut (Thai) lime leaves or 1 Tbsp. lime zest and ¼ cup lime juice
+        6 cups low-sodium chicken broth
+        1½ lb. skinless, boneless chicken thighs, cut into 1” pieces
+        8 oz. shiitake, oyster, or maitake mushrooms, stemmed, caps cut into bite-size pieces
+        1 13.5-oz. can coconut milk
+        2 Tbsp. fish sauce (such as nam pla or nuoc nam)
+        1 tsp. sugar
+        2 stalks fresh lemongrass, tough outer layers removed
+        Chili oil, cilantro leaves with tender stems, and lime wedges (for serving)
+    </string>
+    <string name="Instructions_food_6">
+        Using the back of a knife, lightly smash lemongrass and ginger; cut lemongrass into 4” pieces.
+        Bring lemongrass, ginger, lime leaves, and broth to a boil in a large saucepan.
+        Reduce heat and simmer until flavors are melded, 8–10 minutes.
+        Strain broth into clean saucepan; discard solids.
+        Add chicken and return to a boil. Reduce heat, add mushrooms, and simmer, skimming occasionally, until chicken is cooked through and mushrooms are soft, 20–25 minutes.
+        Mix in coconut milk, fish sauce, and sugar.
+        Divide soup among bowls.
+        Serve with chili oil, cilantro, and lime wedges.
+    </string>
+
+    <string name="Title_food_7">pad see eiw
+<!--        (thick noodle dish)-->
+    </string>
+    <string name="Ingredients_food_7">
+        8 ounces extra wide rice noodles
+        2 chicken breasts boneless and skinless
+        1/4 cup canola oil divided
+        3 tablespoons light soy sauce
+        1 tablespoon dark soy sauce
+        2 teaspoons fish sauce
+        2 tablespoons oyster sauce
+        1 tablespoon sugar
+        1 egg scrambled
+        3 cloves garlic minced
+        3 cups broccoli florets
+        8 ounces sliced mushrooms
+    </string>
+    <string name="Instructions_food_7">
+        Soak the noodles for 30 minutes in cold water or boil them for one minute and steep them in the hot water for five minutes before draining.
+        Cut the chicken into thin strips and toss with soy sauce.
+        Add 2 tablespoons of canola oil to the wok or large skillet on medium high heat.
+        Sear the chicken on both sides for 2-3 minutes.
+        While the chicken is cooking add the soy sauce, dark soy sauce, fish sauce and oyster sauce to a bowl and whisk them together.
+        Add in the egg to the skillet and chop it up with a spatula while cooking.
+        Add in the garlic, broccoli and mushrooms with the remaining oil.
+        Cook on high heat before adding in the noodles and chicken.
+        Cook the noodles until slightly crispy 2-3 minutes.
+        Add in the sauce, toss well and let cook for another 1-2 minutes or until noodles caramelize a little.
+    </string>
+
+    <string name="Title_food_8">pad thai
+<!--        (stir fried noodles)-->
+    </string>
+    <string name="Ingredients_food_8">
+        8 ounces/220 g Thai rice noodles
+        1/2 pound chicken breasts (or thighs, chopped into bite-size pieces)
+        3 cloves garlic, minced
+        1/4 cup grated carrot or cabbage
+        1 egg
+        1/3 cup crushed or roughly chopped peanuts or cashews
+        2 green onions (thinly sliced)
+        2 cups fresh bean sprouts
+        1 handful fresh basil
+        1/4 cup dry-roasted peanuts (or cashews, unsalted)
+        2 tablespoons vegetable oil
+    </string>
+    <string name="Instructions_food_8">
+        Gather the ingredients.
+        Boil rice noodles until too tough to serve but soft enough to eat, a firm "al dente" (noodles will finish cooking when you fry them so avoid overcooking at this point).
+        Drain, and rinse with cold water to keep from sticking.
+        Combine all "stir-fry sauce" ingredients together in a cup.
+        Drizzle 2 tablespoons of sauce over the chopped chicken, and stir.
+        Heat a wok or large non-stick frying pan over medium-high heat.
+        Drizzle in oil, and swirl around then add garlic.
+        Stir fry 1 minute.
+        Add chicken, and stir fry 2 minutes.
+        Add carrot or cabbage, drizzling a little more stir-fry sauce into the pan if it becomes dry.
+        Push ingredients aside, and crack the egg into the middle.
+        Scramble quickly, and incorporate with other ingredients.
+        Add noodles and 1/4 of the stir-fry sauce, using two utensils to lift and turn them in the pan.
+        Stir fry 30 seconds, and add more sauce, continuing in this way until most of the sauce has been used.
+        Add bean sprouts and continue stir frying another 2 to 3 minutes.
+        Taste test and add remaining sauce if you would like more flavor.
+        Add a little more fish sauce for even greater depth of flavor.
+        Serve topped with chopped nuts, spring onion, and fresh basil.
+        Garnish with lime wedges and squeeze over just before eating
+    </string>
+
+    <string name="Title_food_9">pad kee mao
+<!--        (drunken noodles)-->
+    </string>
+    <string name="Ingredients_food_9">
+        Produce: shallots, carrots, garlic, fresh ginger, zucchini, bell pepper, green onions, roma tomatoes, basil
+        Rice noodles
+        Sesame oil (or canola)
+        Chicken (or other protein)
+        Sauce ingredients: oyster sauce, soy sauce, fish sauce, brown sugar, water, red chili sauce
+    </string>
+    <string name="Instructions_food_9">
+        Cook the rice noodles according to package instructions. Drain, rinse with with water and set aside.
+        Prepare the sauce:  Mix sauce ingredients in a small bowl.
+        Cook chicken and vegetables.
+        Heat oil in wok or large skillet over high heat.
+        Add shallots and carrot and cook for 2 minutes.
+        Add more oil and cook chicken.
+        Add garlic and ginger, add bell pepper, zucchini, and the whites of the chopped green onion and sauté.
+        Add noodles and sauce.
+        Toss and cook for a few minutes until warmed through.
+        Remove from heat and stir in chopped basil.
+        Serve immediately, garnished with remaining green onion and extra chili sauce, sriracha, or crushed red pepper, for added spice.
+    </string>
+
+    <string name="Title_food_10">laab
+<!--        (spicy salad)-->
+    </string>
+    <string name="Ingredients_food_10">
+        Rice powder:
+        ½ cup water
+        2 tablespoons uncooked long-grain Thai sticky rice
+        Marinade:
+        1 teaspoon white peppercorns
+        1 teaspoon kosher or sea salt
+        6 garlic cloves, minced
+        1 (6-ounce) can pineapple juice
+        1 ½ pounds boneless sirloin steak, trimmed
+        Cooking spray
+        Remaining ingredients:
+        3 tablespoons fresh lime juice
+        1 cup torn fresh mint
+        ⅓ cup coarsely chopped fresh cilantro leaves
+        ¼ cup minced shallots
+        3 tablespoons thinly sliced green onions
+        2 tablespoons Thai fish sauce
+        1 tablespoon crushed red pepper
+        1 tablespoon thinly sliced kaffir lime leaves (about 8 leaves) or 1 grated lime rind
+        1 teaspoon minced bird chile or 2 s minced serrano chile
+        ½ teaspoon kosher or sea salt
+        12 tender napa (Chinese) cabbage leaves or any sturdy lettuce leaves
+    </string>
+    <string name="Instructions_food_10">
+        To prepare rice powder, combine water and rice in a bowl.
+        Let stand 1 hour.
+        Drain and rinse rice with cold water; pat dry.
+        Cook rice in a small nonstick skillet over medium-high heat 7 minutes, stirring constantly until lightly browned.
+        Cool completely.
+        Place rice in a spice or coffee grinder; process until rice resembles cornmeal.
+        Set aside.
+        To prepare marinade, place peppercorns in pan over medium-high heat, and cook for 3 minutes, stirring constantly or until toasted.
+        Place peppercorns in spice or coffee grinder; process until ground.
+        Combine ground pepper, 1 teaspoon salt, garlic, pineapple juice, and the steak in a large zip-top plastic bag; seal and marinate in refrigerator 30 minutes.
+        Preheat broiler.
+        Remove steak from bag, reserving the marinade.
+        Place steak on a broiler pan coated with cooking spray.
+        Broil 16 minutes or until desired degree of doneness, turning and basting with reserved marinade after 8 minutes.
+        Cut the steak diagonally across grain into thin slices. Cut slices crosswise into thin slivers.
+        Combine steak and lime juice in a large bowl. Add rice powder, mint, and next 8 ingredients (mint through 1/2 teaspoon salt), and toss well.
+        Spoon 1/3 cup steak mixture into each cabbage leaf.
+          </string>
+
+    <string name="Title_food_11">som tam
+<!--        (spicy green papaya salad)-->
+    </string>
+    <string name="Ingredients_food_11">
+       1 small green, unripe papaya
+        1 medium clove garlic, minced
+        1 small red chile pepper, such as Thai bird, seeded and finely chopped
+        2 tablespoons fish sauce, or soy sauce
+        2 tablespoons vegetable oil
+        3 tablespoons freshly squeezed lime juice
+        2 tablespoons brown sugar
+        5 large green beans
+        1 cup cherry tomatoes, halved
+        2 cups bean sprouts
+        1/4 cup coarsely chopped Thai or Italian basil, for garnish
+        1/2 cup roasted peanuts or cashews, for garnish
+        1/2 teaspoon granulated sugar, optional
+        3 medium scallions, thinly sliced lengthwise
+        Sticky rice for serving, optional
+    </string>
+    <string name="Instructions_food_11">
+        Gather the ingredients.
+        Peel the green papaya.
+        Using the largest grater you have (such as one for scalloped potatoes), grate the green fruit, rotating it as you go to avoid hitting the inner seeds.
+        If you do not have a grater, try a method used in Thailand: First, deeply score the flesh using a large, sharp knife.
+        Then, run your knife just under the surface to release the shreds.
+        In a small food chopper or processor, add the garlic, chile pepper, fish sauce, oil, lime juice, and brown sugar.
+        Process until the liquid turns reddish from the chile. Set this salad dressing aside.
+        Alternatively, pound the garlic and chile into a fine paste with a mortar and pestle or with the back of a knife.
+        Transfer to a small bowl, add the fish sauce, oil, lime juice, and brown sugar, and whisk to combine.
+        Slice the green beans into segments and add them to the chopper or processor.
+        Pulse to lightly chop and bruise the beans. In Thailand, the beans are pounded to bruise them, but this method works just as well.
+        Place the shredded papaya, cherry tomatoes, and bean sprouts in a large salad bowl.
+        Add most of the basil, holding back some to be used as a garnish. Add the chile dressing and beans and toss.
+        Add most of the peanuts, holding some back to be used for garnish, and toss again.
+        Test for taste and adjust the flavor of salad as desired.
+        If you would like a more intense flavor or extra saltiness, add an extra splash of fish or soy sauce.
+        More chile can be added to make it spicier.
+        If it is too sour, sprinkle a little white sugar over your salad and toss to mix (the sugar will melt in a minute or two).
+        Garnish with the scallions, and the remaining basil and peanuts.
+        Serve your salad as is or as a side dish to any Thai entree.
+        If this is your main course, try serving it with a side of sticky rice like they do in Thailand.
+          </string>
+
+    <string name="Title_food_12">yum pla duk foo
+<!--        (crispy catfish with green mango salad)-->
+    </string>
+    <string name="Ingredients_food_12">
+        1 catfish (400-500g, grilled) or any other medium-firm textured fish fillets such as tilapia, cod or haddock
+        ½ cup green mango (sliced into long thin slivers)
+        2-3 shallots (sliced thinly)
+        3 tbsp fish sauce
+        4 tbsp lime juice
+        1 tbsp sugar
+        2 tbsp palm sugar (finely chopped)
+        1 tbsp dried shrimp ( chopped)
+        4-5 bird’s eye chillies (mince a few for taste and slice the rest lengthwise for garnish)
+        1 tsp coriander (optional or more, as garnish)
+        ¼ cup peanuts or cashew nuts (toasted)
+        ½-1 cup vegetable oil
+    </string>
+    <string name="Instructions_food_12">
+        Cut the fish into chunks, season with soy sauce or salt, then steam for 5 mins until the meat is fully cooked.
+        Set the fish aside to cool.
+        In the meantime, prepare the mango salad.
+        In a mortar, pound 2-3 bird’s eye chillies until there are no big chunks, then add palm sugar and mash to a paste.
+        Add fish sauce and lime juice and mix until sugar is completely dissolved.
+        Transfer paste to a bowl and add the shallots, dried shrimp, and julienned mango.
+        Set aside to sit while you fry the fish.
+        Once the fish is cool, transfer it to a bowl lined with muslin cloth.
+        Wrap the cloth around the fish, twist, and squeeze as hard as you can to remove as much liquid as possible.
+        Then, transfer the fish to a mortar and pestle and pound it until it’s fluffy with no chunks left.
+        In a wok or a large pot, heat about 3 cm of oil over high heat.
+        Now to put the fu (fluffiness) in the fish, the oil has to be heated to about 200℃.
+        Once the oil is hot enough, sprinkle half of the fish into the oil.
+        Be careful as the oil will bubble aggressively.
+        While the fish cooks, try to tuck the edges of the fish and push the fish down to submerge in oil to fry and brown evenly.
+        Once fish is golden brown, remove from oil with a slotted skimmer and set it on paper towels to drain.
+        Place the fish on a serving plate and sprinkle with roasted peanuts.
+        Garnish mango salad with chopped coriander (optional) and serve beside the fish.
+        Serve the yum pla duk foo as a snack or as a main dish with steamed rice
+          </string>
+
+
+    <!--    Drinks    -->
+    <string name="Title_drinks_1">cha yen
+<!--        (thai style tea)-->
+    </string>
+    <string name="Ingredients_drinks_1">
+        4 tablespoons loose red rooibos tea leaves (or the contents of 10 rooibos tea bags)
+        3 tablespoons loose black tea leaves (or the contents of 7 black tea bags)
+        3 tablespoons granulated sugar
+        10 star anise pods, broken into pieces or roughly chopped
+        10 whole cloves
+        ½ cup half-and-half
+        ½ cup sweetened condensed milk
+        1 tablespoon vanilla extract
+         Ice, for serving
+    </string>
+    <string name="Instructions_drinks_1">
+        Add 4 cups water to a medium saucepan.
+        Cover with a lid and bring to a boil.
+        Remove from the heat.
+        Add rooibos tea, black tea, sugar, star anise and cloves; cover and let steep, 10 minutes.
+        Strain tea, pressing on tea leaves and spices to extract as much liquid as possible, then discarding solids.
+        Refrigerate tea until chilled, at least 1 hour.
+        In a measuring glass, stir together the half-and-half, condensed milk and vanilla extract.
+        Fill a pint glass with ice.
+        Add 3/4 cup tea mixture and top with about 2½ tablespoons condensed milk mixture.
+        Serve immediately.
+    </string>
+
+    <string name="Title_drinks_2">thai milk tea chayen </string>
+    <string name="Ingredients_drinks_2">
+        1 tablespoon Thai Tea Leaves
+        1 cup of of hot boiling water
+        2 teaspoons sugar*
+        2 teaspoons sweetened condensed milk *
+        2 teaspoons evaporated milk*
+        1 cup of ice, crushed
+    </string>
+    <string name="Instructions_drinks_2">
+        Boil some water.
+        In the French press, add in one tablespoon of Thai black tea.
+        Add in one cup of hot boiling water and cover with the lid.
+        Allow it to steep for a couple of minutes, until the water changes into a deep orangey-brown colour.
+        Press the lever down all the way to the bottom.
+        Pour the hot tea into a big cup.
+        Add in 2 teaspoons of sugar and stir to dissolve.
+        Add in 2 teaspoons of condensed milk and stir to combine.
+        In a tall glass, add in ice.
+        Pour the tea into the glass until almost full, and finish with 2 teaspoons of evaporated milk.
+    </string>
+
+    <string name="Title_drinks_3">nom yen
+<!--        (ice milk with syrup)-->
+    </string>
+    <string name="Ingredients_drinks_3">
+        2 cups milk
+        ¼ cup Hale’s Blue Boy sala flavored syrup
+        3 cups crushed ice
+        ¼ cup evaporated milk to drizzle on top optional
+    </string>
+    <string name="Instructions_drinks_3">
+        Mix the milk and sala flavored syrup with a spoon in a mixing jug.
+        Taste the milk mixture and adjust the sweetness to your liking by adding more milk or syrup.
+        Fill 3 cups with crushed ice and pour the pink milk mixture over the ice.
+        Drizzle some evaporated milk onto the top of each cup and enjoy!
+    </string>
+
+    <string name="Title_drinks_4">oliang
+<!--        (thai style coffee)-->
+    </string>
+    <string name="Ingredients_drinks_4">
+        2 tablespoons ground coffee beans
+        ¼ teaspoon ground cardamom
+        water
+        2 tablespoons sweetened condensed milk
+    </string>
+    <string name="Instructions_drinks_4">
+        Step 1
+        Place coffee and cardamom in the filter of your coffee machine.
+        Place enough water to make 2 cups of coffee in the machine.
+        Turn on the coffee machine.
+        Pour brewed coffee into 2 coffee cups, and stir 1 tablespoon sweetened condensed milk into each cup.
+        Serve.
+    </string>
+
+
+    <!--    Desserts    -->
+    <string name="Title_desserts_1">foi thong</string>
+    <string name="Ingredients_desserts_1">
+        20 eggs.
+        850 grams white sugar.
+        6 cups of water.
+        2 pandan leaves.
+        2 tablespoons eggs white.
+        2 skewers or chopsticks.
+        Mold for drizzling.
+        I add 1 tsp orange food colouring to give it a nice bright look.
+        Vegetable oil is often added to the yolk but I didn’t use it this time.
+    </string>
+    <string name="Instructions_desserts_1">
+         Prepare eggs; separate egg yolks and egg whites and strain egg yolks on muslin cotton
+         Mix egg yolks together with food colouring if you have it.
+         In the brass saucepan (or non stick saucepan is an option), mix together the water and sugar.
+         Tie pandan leaves and put in sugar pot.
+         On high heat, heat the sugar mixed until boil and simmer for 7 minutes.
+         Lower the heat until sugar is bubbling in the middle then put egg yolk in your mold.
+         Drizzle egg yolk into bubbling sugar mixture, and make about 30 circles, let it cook for 1-2 minutes use 2 skewers or chop sticks to fold and rest on cooling tray.
+         Repeat no.6 until all the egg yolk is cooked
+    </string>
+
+    <string name="Title_desserts_2">mango sticky</string>
+    <string name="Ingredients_desserts_2">
+        1 cup Thai sweet rice (aka sticky rice)
+        1 1/2 cups water, divided
+        1 (13.5-ounce) can coconut milk, divided
+        1/4 teaspoon salt
+        4 to 5 tablespoons brown sugar, to taste, divided
+        1 to 2 ripe mangoes
+    </string>
+    <string name="Instructions_desserts_2">
+        Gather the ingredients.
+        Soak the rice in 1 cup water in a medium pot for 20 to 30 minutes.
+        Do not drain the rice.
+        Add 1/2 cup more water, plus 1/2 can of the coconut milk, the salt, and 1 tablespoon of the brown sugar.
+        Stir well.
+        Bring to a gentle boil, then partially cover with a lid (leaving some room for steam to escape).
+        Reduce heat to medium-low, or just until you get a gentle simmer.
+        Simmer 20 to 30 minutes, or until the coconut water has been absorbed by the rice.
+        Turn off the heat but leave the pot on the burner with the lid on tight.
+        Allow it to sit for 5 to 10 minutes.
+        To make the sauce, warm (do not boil) the remaining coconut milk over medium-low heat (about 5 minutes).
+        Add 3 tablespoons brown sugar, stirring to dissolve. Taste-test sauce for sweetness, adding more sugar if desired.
+        (Note that it will not taste as sweet once added to the rice.)
+        Prepare the mangoes by cutting them open and slicing each into bite-sized pieces.
+        Scoop some warm rice into each serving bowl, then drizzle lots of the sweet coconut sauce over the top.
+        It should look like an English pudding with custard sauce, with the rice swimming in sauce.
+        Arrange mango slices on the rice and finish with a drizzle of more sauce.
+        Serve and enjoy.
+    </string>
+
+    <string name="Title_desserts_3">thong yip</string>
+    <string name="Ingredients_desserts_3">
+        6 cups + 1 cup of water
+        10 cups + 1 cup of castor sugar
+        15 egg yolks
+        4 to 10 tablespoons of Thong Yot flour, which is a wheat flour and rice flour mixture
+    </string>
+    <string name="Instructions_desserts_3">
+        Make a heavy syrup from 6 cups of water and 10 cups of castor sugar.
+        Make a lighter syrup from 1 cup of water and 1 cup of castor sugar.
+        Strain the egg yolks through muslin.
+        Squeeze.
+        Blend the egg yolks until they are thick and fluffy; this can take 15-20 minutes.
+        Put the egg batter in a bowl and add 4 tablespoons of flour.
+        Mix well.
+        Bring the heavy syrup to a rolling boil.
+        Use your thumb, index and middle fingers to grasp some egg batter, lift it in a sweeping motion across the rim of the bowl, and drop it into the boiling syrup.
+        Is the batter difficult to grasp? Mix in more flour until the batter reaches desired thickness.
+        When a drop is ready, remove it from the boiling water and place it in the lighter syrup.
+        Continue until all drops are ready.
+        You can make many drops at once in the same pot, as long as you don’t put in so much batter that the water cools down and the boiling stops.
+    </string>
+
 </resources>
