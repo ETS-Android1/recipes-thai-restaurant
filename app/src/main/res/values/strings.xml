@@ -3,7 +3,7 @@
 
     <!--    Food    -->
     <string name="Title_food_1">khao niew mamuang
-<!--        (mango sticky rice)-->
+        <!--        (mango sticky rice)-->
     </string>
     <string name="Ingredients_food_1">
         1 1/2 cups glutinous (sweet) rice
@@ -31,7 +31,7 @@
     </string>
 
     <string name="Title_food_2">khao phat or khao pad
-<!--        (fried rice)-->
+        <!--        (fried rice)-->
     </string>
     <string name="Ingredients_food_2">
         1 tablespoon oil
@@ -58,7 +58,7 @@
     </string>
 
     <string name="Title_food_3">guay teow
-<!--        (noodle soup)-->
+        <!--        (noodle soup)-->
     </string>
     <string name="Ingredients_food_3">
         65 grams vital wheat gluten
@@ -82,7 +82,7 @@
     </string>
 
     <string name="Title_food_4">tom yum goong
-<!--        (spicy shrimp soup)-->
+        <!--        (spicy shrimp soup)-->
     </string>
     <string name="Ingredients_food_4">
         1 ½ pounds medium shrimp
@@ -117,7 +117,7 @@
     </string>
 
     <string name="Title_food_5">khao soi
-<!--        (cream ycoconut curry noodle soup)-->
+        <!--        (cream ycoconut curry noodle soup)-->
     </string>
     <string name="Ingredients_food_5">
         2 cups chicken broth no sodium preferred
@@ -144,7 +144,7 @@
     </string>
 
     <string name="Title_food_6">tom kha gai
-<!--        (chicken in coconut soup)-->
+        <!--        (chicken in coconut soup)-->
     </string>
     <string name="Ingredients_food_6">
         1 1” piece ginger, peeled
@@ -170,7 +170,7 @@
     </string>
 
     <string name="Title_food_7">pad see eiw
-<!--        (thick noodle dish)-->
+        <!--        (thick noodle dish)-->
     </string>
     <string name="Ingredients_food_7">
         8 ounces extra wide rice noodles
@@ -200,7 +200,7 @@
     </string>
 
     <string name="Title_food_8">pad thai
-<!--        (stir fried noodles)-->
+        <!--        (stir fried noodles)-->
     </string>
     <string name="Ingredients_food_8">
         8 ounces/220 g Thai rice noodles
@@ -238,7 +238,7 @@
     </string>
 
     <string name="Title_food_9">pad kee mao
-<!--        (drunken noodles)-->
+        <!--        (drunken noodles)-->
     </string>
     <string name="Ingredients_food_9">
         Produce: shallots, carrots, garlic, fresh ginger, zucchini, bell pepper, green onions, roma tomatoes, basil
@@ -262,7 +262,7 @@
     </string>
 
     <string name="Title_food_10">laab
-<!--        (spicy salad)-->
+        <!--        (spicy salad)-->
     </string>
     <string name="Ingredients_food_10">
         Rice powder:
@@ -309,7 +309,7 @@
           </string>
 
     <string name="Title_food_11">som tam
-<!--        (spicy green papaya salad)-->
+        <!--        (spicy green papaya salad)-->
     </string>
     <string name="Ingredients_food_11">
        1 small green, unripe papaya
@@ -353,7 +353,7 @@
           </string>
 
     <string name="Title_food_12">yum pla duk foo
-<!--        (crispy catfish with green mango salad)-->
+        <!--        (crispy catfish with green mango salad)-->
     </string>
     <string name="Ingredients_food_12">
         1 catfish (400-500g, grilled) or any other medium-firm textured fish fillets such as tilapia, cod or haddock
@@ -394,7 +394,7 @@
 
     <!--    Drinks    -->
     <string name="Title_drinks_1">cha yen
-<!--        (thai style tea)-->
+        <!--        (thai style tea)-->
     </string>
     <string name="Ingredients_drinks_1">
         4 tablespoons loose red rooibos tea leaves (or the contents of 10 rooibos tea bags)
@@ -443,7 +443,7 @@
     </string>
 
     <string name="Title_drinks_3">nom yen
-<!--        (ice milk with syrup)-->
+        <!--        (ice milk with syrup)-->
     </string>
     <string name="Ingredients_drinks_3">
         2 cups milk
@@ -459,7 +459,7 @@
     </string>
 
     <string name="Title_drinks_4">oliang
-<!--        (thai style coffee)-->
+        <!--        (thai style coffee)-->
     </string>
     <string name="Ingredients_drinks_4">
         2 tablespoons ground coffee beans
@@ -553,5 +553,7 @@
         Continue until all drops are ready.
         You can make many drops at once in the same pot, as long as you don’t put in so much batter that the water cools down and the boiling stops.
     </string>
+    <string name="open" />
+    <string name="close" />
 
 </resources>

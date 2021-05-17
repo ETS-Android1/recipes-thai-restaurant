@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:alpha="0.6"
-                android:background="@drawable/foi_thong"
+                android:background="@drawable/backgroung"
                 android:scaleType="centerCrop" />
 
             <TextView

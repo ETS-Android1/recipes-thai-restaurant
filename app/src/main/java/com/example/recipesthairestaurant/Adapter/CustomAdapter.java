@@ -21,10 +21,12 @@ public class CustomAdapter extends BaseAdapter {
 
     Context context;
     List<Constant> constantList;
+    int condtion;
 
-    public CustomAdapter(Context context, List<Constant> constantList) {
+    public CustomAdapter(Context context, List<Constant> constantList, int condtion) {
         this.context = context;
         this.constantList = constantList;
+        this.condtion= condtion;
     }
 
     @Override
@@ -64,6 +66,7 @@ public class CustomAdapter extends BaseAdapter {
                     public void onClick(View v) {
                         Intent intent = new Intent(context, FullView.class);
                         intent.putExtra("iamge", image);
+                        intent.putExtra("condtion", condtion);
                         intent.putExtra("title", title);
                         intent.putExtra("ingredients", ingredients);
                         intent.putExtra("instructions", instructions);

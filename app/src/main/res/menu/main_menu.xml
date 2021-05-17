@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/MoreApp"
+        android:title="More App"
+        android:icon="@drawable/ic_baseline_more_24"
+        ></item>
+
+    <item
+        android:id="@+id/Rate"
+        android:title="Rate US"
+        android:icon="@drawable/ic_baseline_star_border_24"
+        ></item>
+
+    <item
+        android:id="@+id/Privacy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_baseline_lock_open_24"
+        ></item>
+
+    <item
+        android:id="@+id/Share"
+        android:title="Share Us"
+        android:icon="@drawable/ic_baseline_share_24"
+        ></item>
+
 </menu>

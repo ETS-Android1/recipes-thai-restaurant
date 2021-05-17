@@ -1,16 +1,24 @@
 package com.example.recipesthairestaurant.Activites;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
 import com.example.recipesthairestaurant.R;
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,14 +28,21 @@ public class Dashboard extends AppCompatActivity {
     List<SlideModel> slideModelListDrinks;
     List<SlideModel> slideModelListDesserts;
     ImageSlider imageSliderFood, imageSliderDrinks, imageSliderDesserts;
+    NavigationView navigationView;
+    DrawerLayout drawerLayout;
+    ActionBarDrawerToggle actionBarDrawerToggle;
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            finishAndRemoveTask();
+        if (this.drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            this.drawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                finishAndRemoveTask();
+            }
+            this.finishAffinity();
         }
-        this.finishAffinity();
     }
 
     @Override
@@ -35,9 +50,68 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        imageSliderFood =(ImageSlider) findViewById(R.id.image_slider_Food);
-        imageSliderDrinks =(ImageSlider) findViewById(R.id.image_slider_Drinks);
-        imageSliderDesserts =(ImageSlider) findViewById(R.id.image_slider_Desserts);
+        navigationView = (NavigationView) findViewById(R.id.navigationView);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+        actionBarDrawerToggle = new ActionBarDrawerToggle(Dashboard.this, drawerLayout, R.string.open, R.string.close);
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()) {
+                    case R.id.MoreApp:
+
+                        final String Playstore = "receita zghari apps"; // getPackageName() from Context or Activity object
+                        final String Browser = "receita+zghari+apps"; // getPackageName() from Context or Activity object
+                        try {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(" market://search?q=pub:" + Playstore)));
+                        } catch (android.content.ActivityNotFoundException anfe) {
+                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=pub:" + Browser)));
+                        }
+
+                        break;
+                    case R.id.Share:
+
+                        Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
+                        shareIntent.setType("text/plain");
+                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Download Recipes Thai Restaurant");
+                        String app_url = " https://play.google.com/store/apps/details?id=" + getPackageName();
+                        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, app_url);
+                        startActivity(Intent.createChooser(shareIntent, "Share via"));
+
+                        break;
+                    case R.id.Privacy:
+
+                        startActivity(new Intent(Dashboard.this, Privacy.class));
+
+                        break;
+                    case R.id.Rate:
+
+                        Uri uri = Uri.parse("market://details?id=" + getPackageName());
+                        Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_NEW_DOCUMENT | Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+                        }
+                        try {
+                            startActivity(goToMarket);
+                        } catch (ActivityNotFoundException e) {
+                            startActivity(new Intent(Intent.ACTION_VIEW,
+                                    Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
+                        }
+
+                        break;
+                }
+                return true;
+            }
+        });
+
+
+        imageSliderFood = (ImageSlider) findViewById(R.id.image_slider_Food);
+        imageSliderDrinks = (ImageSlider) findViewById(R.id.image_slider_Drinks);
+        imageSliderDesserts = (ImageSlider) findViewById(R.id.image_slider_Desserts);
 
         AddImages();
     }
@@ -74,7 +148,7 @@ public class Dashboard extends AppCompatActivity {
 
     public void ViewAll(View view) {
         Intent intent = new Intent(Dashboard.this, MainActivity.class);
-        switch(view.getId()) {
+        switch (view.getId()) {
             case R.id.Food_show_all:
                 intent.putExtra("Condition", 1);
                 break;
@@ -87,4 +161,10 @@ public class Dashboard extends AppCompatActivity {
         }
         startActivity(intent);
     }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return actionBarDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
+    }
+
 }

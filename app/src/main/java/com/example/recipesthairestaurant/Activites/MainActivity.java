@@ -42,12 +42,12 @@ public class MainActivity extends AppCompatActivity {
                 Desserts();
                 break;
         }
-        customAdapter = new CustomAdapter(MainActivity.this, constantList);
+        customAdapter = new CustomAdapter(MainActivity.this, constantList, Condition);
         gridView.setAdapter(customAdapter);
     }
 
     private void Food() {
-        constantList.add(new Constant(R.drawable.khao_niew_mamuang__mango_sticky_rice, getResources().getString(R.string.Title_food_1), getResources().getString(R.string.Ingredients_food_1), getResources().getString(R.string.Instructions_food_1)));
+        constantList.add(new Constant(R.drawable.khao_niew_mamuang__mango_sticky_rice,getResources().getString(R.string.Title_food_1), getResources().getString(R.string.Instructions_food_1), getResources().getString(R.string.Instructions_food_1)));
         constantList.add(new Constant(R.drawable.khao_phat_or_khao_pad__fried_rice, getResources().getString(R.string.Title_food_2), getResources().getString(R.string.Ingredients_food_2), getResources().getString(R.string.Instructions_food_2)));
         constantList.add(new Constant(R.drawable.guay_teow__noodle_soup, getResources().getString(R.string.Title_food_3), getResources().getString(R.string.Ingredients_food_3), getResources().getString(R.string.Instructions_food_3)));
         constantList.add(new Constant(R.drawable.tom_yum_goong__spicy_shrimp_soup, getResources().getString(R.string.Title_food_4), getResources().getString(R.string.Ingredients_food_4), getResources().getString(R.string.Instructions_food_4)));
