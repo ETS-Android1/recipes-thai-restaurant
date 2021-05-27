@@ -1,12 +1,12 @@
 package com.example.recipesthairestaurant.Activites;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.recipesthairestaurant.R;
 
@@ -35,13 +35,25 @@ public class FullView extends AppCompatActivity {
         imageView = (ImageView) findViewById(R.id.imageFullView);
 
         intent = getIntent();
+
+        Bundle bundle= getIntent().getExtras();
+        if(bundle!=null)
+        {
+//            titleTXT.setText(bundle.getString("title"));
+            imageView.setImageResource(bundle.getInt("image"));
+//            ingredientsTitle.setText(bundle.getString("ingredients: "));
+//            ingredientsTXT.setText(bundle.getString("ingredients"));
+//            instructionsTitle.setText(bundle.getString("instructions: "));
+//            ingredientsTXT.setText(bundle.getString("instructions"));
+
+        }
         condtion = intent.getIntExtra("condtion", 0);
-        image = intent.getIntExtra("image", 0);
+//        image = intent.getIntExtra("image", 0);
         title = intent.getStringExtra("title");
         ingredients = intent.getStringExtra("ingredients");
         instructions = intent.getStringExtra("instructions");
 
-        imageView.setImageResource(image);
+//        imageView.setImageResource(image);
         titleTXT.setText(title);
         ingredientsTitle.setText("Ingredients:");
         ingredientsTXT.setText(ingredients);
