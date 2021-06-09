@@ -1,11 +1,5 @@
 package com.example.recipesthairestaurant.Activites;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,6 +7,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
@@ -60,10 +60,8 @@ public class Dashboard extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
                 switch (item.getItemId()) {
                     case R.id.MoreApp:
-
                         final String Playstore = "receita zghari apps"; // getPackageName() from Context or Activity object
                         final String Browser = "receita+zghari+apps"; // getPackageName() from Context or Activity object
                         try {
@@ -74,7 +72,6 @@ public class Dashboard extends AppCompatActivity {
 
                         break;
                     case R.id.Share:
-
                         Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
                         shareIntent.setType("text/plain");
                         shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Download Recipes Thai Restaurant");
@@ -84,12 +81,10 @@ public class Dashboard extends AppCompatActivity {
 
                         break;
                     case R.id.Privacy:
-
                         startActivity(new Intent(Dashboard.this, Privacy.class));
 
                         break;
                     case R.id.Rate:
-
                         Uri uri = Uri.parse("market://details?id=" + getPackageName());
                         Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {

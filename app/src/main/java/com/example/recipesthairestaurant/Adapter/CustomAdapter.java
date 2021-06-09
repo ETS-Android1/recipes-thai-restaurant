@@ -65,7 +65,7 @@ public class CustomAdapter extends BaseAdapter {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(context, FullView.class);
-                        intent.putExtra("iamge", image);
+                        intent.putExtra("image", image);
                         intent.putExtra("condtion", condtion);
                         intent.putExtra("title", title);
                         intent.putExtra("ingredients", ingredients);
@@ -74,7 +74,6 @@ public class CustomAdapter extends BaseAdapter {
                     }
                 }
         );
-
         return convertView;
     }
 }
